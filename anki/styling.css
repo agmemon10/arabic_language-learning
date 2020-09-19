@@ -1,0 +1,84 @@
+* {
+box-sizing: border-box;
+}
+
+body, html {
+  background: linear-gradient(0deg, #3D4852 0%, #22292F 100%);
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.english {
+  font-family: system-ui, -apple-system, blinkmacsystemfont, "segoe ui", roboto, "helvetica neue", arial, "noto sans", sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+  direction: ltr !important;;
+  font-size: 20px !important;
+}
+
+.arabic {
+  font-family: menlo, monaco, consolas, "liberation mono", "courier new", monospace;
+  direction: rtl !important;
+  font-size: 36px !important;
+}
+
+.card {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: 3px !important;
+  text-align: center;
+}
+
+.card-front {
+  background-color: #2d3748;
+  color: #b5f4a5;
+  size: 100%;
+  padding: 1.25rem 0 1.25rem 0;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.card-back {
+  background-color: #f1f5f8;
+  color: #22292f;
+  padding: 1.25rem 0 1.25rem 0;
+  border-radius: 0px 0px 3px 3px;
+}
+
+.input-container {
+  width: 85%;
+  margin: 1rem auto 0 auto;
+  text-align: center;
+  color: #22292f;
+}
+
+input {
+  color: #ff8383 !important;
+  padding: 1rem 0;
+  background-color: #242c39;
+  font-family: "courier new" !important;
+  text-align:center !important;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+#typeans {
+  color: #fff;
+  font-size: 28px !important;
+}
+
+.typeGood {
+  background: #38C172;
+}
+
+.typeBad {
+  background: #EB5286;
+}
+
+.typeMissed {
+  background: #606F7B;
+}
+
+.tag {
+  color:#A0AEC0;
+  margin-top:25px;
+  font-size: 0.9rem !important;
+  font-family: "courier new" !important;
+}
